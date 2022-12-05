@@ -1,0 +1,128 @@
+
+
+*{
+    box-sizing: border-box;
+
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #ffffff;
+}
+.about-img{
+    margin-left: -100px;
+    right: -60px;
+}
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+.btn-white{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.btn-blue{
+    border: 2.4px solid #ffffff;
+    color: #ffffff;
+}
+.hero-text{
+    margin-top: 100px;
+}
+.typed-cursor{
+    font-size: 45px;
+    color: #ffffff;
+}
+.position-absolute{
+    font-weight: 700;
+
+}
+
+a{
+    color: #0bceaf;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: #078571;
+    text-decoration: underline;
+}
+.navbar-light{
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    outline: none;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active{
+    color: #457efa;
+}
+
+.blue{
+    background-color: #1c5ce6;
+    color: #ffffff;
+  }
+  .btn{
+    border: 2px solid rgb(29, 105, 247);
+  } 
+  .btn-white{
+    background-color: #ffffff;
+    border:2px solid #ffffff;
+  }
+  .btn-blue{
+    border: 2.4px solid #ffffff;
+    color: #ffffff;
+  }
+  @media (max-width: 700px) {
+    .about-img{
+      margin-left: 20px;
+      right: 0px;
+      top: 30px;
+     }
+  }
+  .testimonial-carousel .text-center{
+    background-color: #eaecf0d0;
+    border-radius: 20px;
+    margin: 20px;
+  
+  }
+  
+  .testimonial-carousel .owl-dots {
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .testimonial-carousel .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background: #dddddd;
+  }
+  
+  .testimonial-carousel .owl-dot.active {
+    background: #0BCEAF;
+  }
+  
+  
+  
+  /* ========================== Contact Us ========================*/
+  
+  .contact-form .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
